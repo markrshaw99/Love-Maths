@@ -13,10 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 }
 )
-
+/**
+ * This function initializes the game by generating two random numbers
+ */
 function runGame() {
-addEventListener
-}
+let num1 = Math.floor(Math.random() * 25) + 1;
+let num2 = Math.floor(Math.random() * 25) + 1;
+
 function checkAnswer() {
 
 }
