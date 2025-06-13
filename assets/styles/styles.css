@@ -77,6 +77,19 @@ body {
     height: 40px;
     width: 80px;
     font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Remove number input spinners in Chrome, Safari, Edge, Opera */
+#answer-box::-webkit-outer-spin-button,
+#answer-box::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove number input spinners in Firefox */
+#answer-box[type=number] {
+    -moz-appearance: textfield;
 }
 
 .scores {
@@ -164,7 +177,7 @@ body {
 }
 
 .btn--gray {
-    /* margin-top: ; */
+    margin-top: 25px;
     background-color: #445361;
     border: 1px transparent;
     border-radius: 20px;
@@ -174,7 +187,6 @@ body {
 .btn--gray:hover {
     background-color: #0d1013;
 }
-
 
 /* --------- Media queries */
 
